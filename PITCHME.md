@@ -113,7 +113,7 @@ Note:
 <br>
 <br>
 
-<span style="font-size:0.5em" >skip to UEFI Shell Commands : &nbsp;&nbsp; <a href=""> @fa[angle-right gp-bullet-cream]</a></span>
+<span style="font-size:0.5em" >skip to UEFI Shell Commands : &nbsp;&nbsp; <a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/9"> @fa[angle-right gp-bullet-cream]</a></span>
 
 
 Note:
@@ -122,7 +122,7 @@ Note:
 @title[UEFI Shell Lab Max/Turbot Section]
 <br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ Max/Turbot</span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with QEMU &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/9"> @fa[angle-right gp-bullet-cream]</a></span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with QEMU Shell Commands &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/9">@fa[angle-right gp-bullet-cream]</a></span>
 
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Max Test System 02]
@@ -285,10 +285,10 @@ Note:
 @title[UEFI Shell Scripts ]
 ### <p align="right"><span class="gold" >UEFI Shell Scripts</span></p>
 <br>
-<span style="font-size:0.9em" >The UEFI Shell can execute commands from a file, which is called a batch script file (<font face="Courier New"><b>.nsh</b></font> files). </span>
+<span style="font-size:0.9em" >The UEFI Shell can execute commands from a file, which is called a batch script file (<font face="Courier New" color="yellow"><b>.nsh</b></font> files). </span>
 <br>
 <br>
-<span style="font-size:0.8em" ><b>Benefits:</b> These files allow users to simplify routine or repetitive tasks. <br>
+<span style="font-size:0.8em" ><font color="cyan"><b>Benefits:</b></font> These files allow users to simplify routine or repetitive tasks. <br>
 - <span style="font-size:0.7em" >Perform basic flow control. </span>
 - <span style="font-size:0.7em" >Allow branching and looping in a script. </span>
 - <span style="font-size:0.7em" >Allow users to control input and output and call other batch programs (known as script nesting). </span>
@@ -422,10 +422,11 @@ Note:
 @title[Summary]
 <BR>
 ### <p align="center"><span class="gold"   >Summary </span></p><br>
-<br>
- @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell  (QEMU or MAX/Turbot)</span><br>
- @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Commands</span><br>
+
+ @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell  (QEMU or MAX/Turbot)</span><br><br>
+ @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Commands</span><br><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Scripts</span> <br>
+ 
 
  
 
