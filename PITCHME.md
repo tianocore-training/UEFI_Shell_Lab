@@ -127,14 +127,15 @@ Note:
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Max Test System 02]
 ### <p align="right"><span class="gold" >Setup MinnowBoard Max Test System</span></p>
-
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-<p align="center"><span style="font-size:0.5em" ><font color="gray">See Platform Build lab for Minnowboard MAX/Turbot HW setup</font></span></p>
+<br>
+<br>
+<p align="center"><span style="font-size:0.5em" >See Platform Build lab for Minnowboard MAX/Turbot HW setup</span></p>
 
 
 Note:
