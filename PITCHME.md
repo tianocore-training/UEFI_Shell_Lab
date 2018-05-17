@@ -45,9 +45,9 @@ Note:
 
 <!---  Add bullets using https://fontawesome.com/cheatsheet certificate
 -->
-<br>
- @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell  (QEMU or MAX/Turbot)</span><br>
- @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Commands</span><br>
+
+ @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell  (QEMU or MAX/Turbot)</span><br><br>
+ @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Commands</span><br><br>
  @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Run UEFI Shell Scripts</span> <br>
  
 
@@ -55,7 +55,7 @@ Note:
 @title[UEFI Shell Lab QEMU Section]
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ QEMU</span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with MinnowBoard MAX / Turbot &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/6"> &#8680;</a></span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with  &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/6">MinnowBoard MAX / Turbot @fa[angle-right gp-bullet-cream]</a></span>
 
 
 
@@ -68,13 +68,24 @@ Note:
 <br>
 <br>
 <br>
-
-<span style="font-size:0.5em" ><font color="yellow">See Platform Build lab for "RunQemu.sh" script</font></span>
+<br>
+<br>
+<br>
+<span style="font-size:0.5em" ><font color="gray">See Platform Build lab for "RunQemu.sh" script</font></span>
 
 
 Note:
 
 see Platform Build lab for "RunQemu.sh" script
+
+RunQemu.sh:
+- Create a Linux shell script to run the QEMU from the run-ovmf directory
+
+`bash$ gedit RunQemu.sh`
+<br>
+`qemu-system-x86_64 -pflash bios.bin -hda fat:rw:hda-contents -net none     -debugcon file:debug.log -global isa-debugcon.iobase=0x402 `
+<br>
+Save and Exit
 
 
 ---?image=/assets/images/slides/Slide6.JPG
@@ -95,8 +106,14 @@ Note:
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<span style="font-size:0.5em" >skip to UEFI Shell Commands : &nbsp;&nbsp; <a href=""> &#8680;</a></span>
+<span style="font-size:0.5em" >skip to UEFI Shell Commands : &nbsp;&nbsp; <a href=""> @fa[angle-right gp-bullet-cream]</a></span>
 
 
 Note:
@@ -105,7 +122,7 @@ Note:
 @title[UEFI Shell Lab Max/Turbot Section]
 <br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ Max/Turbot</span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with QEMU &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/9"> &#8680;</a></span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with QEMU &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/9"> @fa[angle-right gp-bullet-cream]</a></span>
 
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Max Test System 02]
