@@ -135,6 +135,8 @@ Note:
 <br>
 <br>
 <br>
+<br>
+<br>
 <p align="center"><span style="font-size:0.5em" >See Platform Build lab for Minnowboard MAX/Turbot HW setup</span></p>
 
 
