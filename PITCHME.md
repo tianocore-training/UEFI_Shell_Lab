@@ -127,9 +127,7 @@ Note:
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Max Test System 02]
 ### <p align="right"><span class="gold" >Setup MinnowBoard Max Test System</span></p>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>
