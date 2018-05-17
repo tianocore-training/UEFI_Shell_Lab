@@ -3,7 +3,7 @@
 <br><br><br><br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
-#### UEFI Shell Lab - OVMF with QEMU  or on MinnowBoard MAX/Turbot
+#### UEFI Shell Lab - OVMF with QEMU  or MinnowBoard MAX/Turbot
 
 <br>
 <span style="font-size:0.75em" ><a href='http://www.tianocore.org'>tianocore.org</a></span>
@@ -55,7 +55,7 @@ Note:
 @title[UEFI Shell Lab QEMU Section]
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ QEMU</span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with MinnowBoard MAX / Turbot &nbsp;<a href=""> &#8680;</a></span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with MinnowBoard MAX / Turbot &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/6"> &#8680;</a></span>
 
 
 
@@ -104,8 +104,8 @@ Note:
 ---?image=assets/images/binary-strings-black2.jpg
 @title[UEFI Shell Lab Max/Turbot Section]
 <br><br><br><br><br>
-## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ Max/Turbot</span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with QEMU &nbsp;<a href=""> &#8680;</a></span>
+### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ Max/Turbot</span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with QEMU &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/9"> &#8680;</a></span>
 
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Max Test System 02]
@@ -147,7 +147,7 @@ bash$ screen /dev/ttyUSBn 115200
 @title[UEFI Shell Lab Commands Section]
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Commands </span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Commands from the Shell Command Line Interface</span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commands from the Command Line Interface</span>
 
 
 ---?image=/assets/images/slides/Slide16.JPG
@@ -268,12 +268,13 @@ Note:
 @title[UEFI Shell Scripts ]
 ### <p align="right"><span class="gold" >UEFI Shell Scripts</span></p>
 <br>
-The UEFI Shell can execute commands from a file, which is called a batch script file (.nsh files). 
+<span style="font-size:0.9em" >The UEFI Shell can execute commands from a file, which is called a batch script file (<font face="Courier New"><b>.nsh</b></font> files). </span>
 <br>
-Benefits: These files allow users to simplify routine or repetitive tasks. <br>
-- Perform basic flow control. 
-- Allow branching and looping in a script. 
-- Allow users to control input and output and call other batch programs (known as script nesting). 
+<br>
+<span style="font-size:0.8em" ><b>Benefits:</b> These files allow users to simplify routine or repetitive tasks. <br>
+- <span style="font-size:0.7em" >Perform basic flow control. </span>
+- <span style="font-size:0.7em" >Allow branching and looping in a script. </span>
+- <span style="font-size:0.7em" >Allow users to control input and output and call other batch programs (known as script nesting). </span>
 
 Note:
 The UEFI Shell can execute commands from a file, which is called a batch script file (.nsh files). 
@@ -337,8 +338,8 @@ USB Thumb Drive
 @title[UEFI Shell Script Example]
 <br>
 <p align="center"><span class="gold" >UEFI Shell Script Example</span></p>
-<br>
-<span style="font-size:0.7em"><font color="yellow">Script1.nsh</font></span>
+
+<span style="font-size:0.8em"><font color="yellow">Script1.nsh</font></span>
 ```shell
 # Simple UEFI Shell script file
 echo  -off
@@ -348,8 +349,7 @@ if exist %cwd%Mytime.log then
 endif
 echo "%HThank you.” “%VByeBye:) %N"
 ```
-<br>
-<span style="font-size:0.7em"><font color="yellow">Script2.nsh</font></span>
+<span style="font-size:0.8em"><font color="yellow">Script2.nsh</font></span>
 ```shell
 # Show nested scripts
 time > Mytime.log
