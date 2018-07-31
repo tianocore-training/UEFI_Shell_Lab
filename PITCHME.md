@@ -317,7 +317,7 @@ Benefits: These files allow users to simplify routine or repetitive tasks. <br>
 - Allow branching and looping in a script. 
 - Allow users to control input and output and call other batch programs (known as script nesting). 
 
----?image=/assets/images/slides/Slide42.JPG
+---?image=/assets/images/slides2/Slide26.JPG
 @title[Writing UEFI Shell Scripts]
 ### <p align="right"><span class="gold" >Writing UEFI Shell Scripts </span></p>
 
