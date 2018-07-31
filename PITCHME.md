@@ -202,7 +202,7 @@ And what you will see is the list of all the shell commands built into this plat
 To exit, this emulation simply type: “reset”
 
 
----?image=/assets/images/slides2/Slide13.JPG
+---?image=/assets/images/slides2/Slide14.JPG
 @title[Shell mm Command ]
 ### <p align="right"><span class="gold" >Shell "mm"</span></p>
 
@@ -210,7 +210,7 @@ To exit, this emulation simply type: “reset”
 Note:
 
 
----?image=/assets/images/slides2/Slide14.JPG
+---?image=/assets/images/slides2/Slide13.JPG
 @title[Shell mm -?   Command ]
 ### <p align="right"><span class="gold" >Shell "mm"</span></p>
 
