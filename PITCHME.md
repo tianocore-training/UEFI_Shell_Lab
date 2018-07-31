@@ -178,7 +178,7 @@ bash$ screen /dev/ttyUSBn 115200
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commands from the Command Line Interface</span>
 
 
----?image=/assets/images/slides/Slide16.JPG
+---?image=/assets/images/slides2/Slide11.JPG
 @title[Common Shell Commands ]
 ### <p align="right"><span class="gold" >Common Shell Commands For Debugging</span></p>
 
@@ -190,7 +190,7 @@ Next for this lab there are a few shell commands that will help us with debuggin
 We are not going to go all were these in detail but just to make you aware of the shell commands.
 
 
----?image=/assets/images/slides/Slide18.JPG
+---?image=/assets/images/slides2/Slide12.JPG
 @title[Shell Help Command ]
 ### <p align="right"><span class="gold" >Shell Help</span></p>
 
@@ -202,7 +202,7 @@ And what you will see is the list of all the shell commands built into this plat
 To exit, this emulation simply type: “reset”
 
 
----?image=/assets/images/slides/Slide20.JPG
+---?image=/assets/images/slides2/Slide13.JPG
 @title[Shell mm Command ]
 ### <p align="right"><span class="gold" >Shell "mm"</span></p>
 
@@ -210,7 +210,7 @@ To exit, this emulation simply type: “reset”
 Note:
 
 
----?image=/assets/images/slides/Slide22.JPG
+---?image=/assets/images/slides2/Slide14.JPG
 @title[Shell mm -?   Command ]
 ### <p align="right"><span class="gold" >Shell "mm"</span></p>
 
@@ -275,7 +275,12 @@ Note:
 Note:
 
 
+---?image=/assets/images/slides2/Slide21.JPG
+@title[Shell Load Command ]
+### <p align="right"><span class="gold" >Shell "Dmpstore"</span></p>
 
+
+Note:
 
 ---?image=/assets/images/slides/Slide38.JPG
 @title[Shell Stall Command ]
