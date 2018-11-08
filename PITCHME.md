@@ -55,7 +55,7 @@ Note:
 @title[UEFI Shell Lab QEMU Section]
 <br><br><br><br><br>
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ QEMU</span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with  &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/6">MinnowBoard MAX / Turbot @fa[angle-right gp-bullet-cream]</a></span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with  &nbsp;<a href="https://gitpitch.com/tianocore-training/UEFI_Shell_Lab/master#/6">MinnowBoard MAX / Turbot @fa[angle-right gp-bullet-cream]</a></span>
 
 
 
@@ -113,7 +113,7 @@ Note:
 <br>
 <br>
 
-<span style="font-size:0.5em" >skip to UEFI Shell Commands : &nbsp;&nbsp; <a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/9"> @fa[angle-right gp-bullet-cream]</a></span>
+<span style="font-size:0.5em" >skip to UEFI Shell Commands : &nbsp;&nbsp; <a href="https://gitpitch.com/tianocore-training/UEFI_Shell_Lab/master#/9"> @fa[angle-right gp-bullet-cream]</a></span>
 
 
 Note:
@@ -122,7 +122,7 @@ Note:
 @title[UEFI Shell Lab Max/Turbot Section]
 <br><br><br><br><br>
 ### <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UEFI Shell Lab w/ Max/Turbot</span>
-<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with QEMU Shell Commands &nbsp;<a href="https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/9">@fa[angle-right gp-bullet-cream]</a></span>
+<span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skip if continuing with QEMU Shell Commands &nbsp;<a href="https://gitpitch.com/tianocore-training/UEFI_Shell_Lab/master#/9">@fa[angle-right gp-bullet-cream]</a></span>
 
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Max Test System 02]

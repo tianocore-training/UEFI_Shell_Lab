@@ -33,4 +33,4 @@
 # UEFI_Shell_Lab
 OVMF with QEMU  or on MinnowBoard MAX/Turbot UEFI Shell Lab - commands and scripts 
 
-To see the Slides goto https://gitpitch.com/Laurie0131/UEFI_Shell_Lab/master#/
+To see the Slides goto https://gitpitch.com/tianocore-training/UEFI_Shell_Lab/master#/
